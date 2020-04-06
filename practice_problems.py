@@ -1,8 +1,8 @@
 """
 Question 1: Given a non-empty array of integers, every element appears twice except for one. Find that single one.
 
-1. Clarify - So you want me to create a function that takes in a non-empty array of numbers, only integers
-and return the single integer that doesn't appear twice?
+1. Clarify - So you want me to create a function that takes in a non-empty array of only integers as an input
+and return or output the single integer that doesn't appear twice?
 
 2. Assumptions - I will assume that the array has only integers and nothing else in it, ie. string, floats, objects, ects. 
 I will assume that the function needs to return a single integer in the array, and not a boolean. And only one integer in the array appears once
@@ -32,7 +32,7 @@ def find_unique(array):
 """
 Question 2: Given an integer, write a function to check whether it is a power of 4.
 
-1. Clarify - I need to create a function that return a boolean of whether the input as an integer is the power of 4? Will zero be a valid integer?
+1. Clarify - I need to create a function that return a boolean as the output of whether the input as an integer is the power of 4? Will zero be a valid integer?
 
 2. Assumptions - I will assume that the input will be an integer and not a float or string or any other data type. I will assume to 
 return a true or false boolean.
