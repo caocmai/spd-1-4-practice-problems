@@ -8,7 +8,8 @@ and return the single integer that doesn't appear twice?
 I will assume that the function needs to return a single integer in the array, and not a boolean. And only one integer in the array appears once
 
 3. The brute force way of doing this would be to compare every single value against each other and if see if they match and only returning the value with out a match.
-Hence, the unique value. To slove this problem this problem with a better runtime I would iterate over the given array and append to a new array if the value is not in the new array, otherwise if it's in the list 
+Hence, the unique value. To slove this problem this problem with a better runtime I would iterate over the given array 
+and append to a new array if the value is not in the new array, otherwise if it's in the list 
 then remove it from the new list and return the single value the new array, but since the I created the new array
 it will return it as a list and to return a single integer I can use the pop method on the returned array.
 
